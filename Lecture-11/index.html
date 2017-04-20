@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="DIApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Expression & Interpollation</title>
+    <script type="text/javascript" src="angular.min.js">
+    </script>
+    <script type="text/javascript" src="app.js">
+    </script>
+  </head>
+  <body>
+    <h1>Expression & Interpollation</h1>
+    <div class="" ng-controller='DIController'>
+      {{name}} has a message for you: <br>
+      {{sayMessage()}}
+      <div class="">
+        <button type="button" name="button" ng-click="feedPoonam()">Feeding</button>
+        <br>
+        <img ng-src="image/nice_{{stateofbeing}}.jpg" alt="">
+      </div>
+    </div>
+  </body>
+</html>
